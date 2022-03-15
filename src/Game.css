@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+.chess-board {
+  background-color: grey;
+  margin: 5px;
+  padding: 15px;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: repeat(8, auto);
+}
+.board-cell {
+  padding: 2px;
+  border: 1px solid red;
+  cursor: pointer;
+}
+.white-cell {
+  background-color: white;
+  color: black;
+}
+.black-cell {
+  background-color: black;
+  color: white;
+}
+.current-cell {
+  color: white;
+}
